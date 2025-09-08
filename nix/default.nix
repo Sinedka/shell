@@ -22,6 +22,7 @@
   quickshell,
   aubio,
   libcava,
+  cava,
   pipewire,
   fftw,
   xkeyboard-config,
@@ -41,7 +42,7 @@
       ddcutil
       brightnessctl
       app2unit
-      libcava
+      cava
       networkmanager
       lm_sensors
       swappy
