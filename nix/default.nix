@@ -41,6 +41,7 @@
       ddcutil
       brightnessctl
       app2unit
+      fftw
       networkmanager
       lm_sensors
       swappy
