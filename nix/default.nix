@@ -23,6 +23,7 @@
   aubio,
   libcava,
   pipewire,
+  fftw,
   xkeyboard-config,
   cmake,
   ninja,
