@@ -22,7 +22,8 @@
   quickshell,
   aubio,
   libcava,
-  libpipewire,
+  pipewire,
+  fftw,
   xkeyboard-config,
   cmake,
   ninja,
@@ -86,7 +87,7 @@
     };
 
     nativeBuildInputs = [cmake ninja pkg-config];
-    buildInputs = [qt6.qtbase qt6.qtdeclarative qt6.qtmultimedia libqalculate libpipewire aubio libcava];
+    buildInputs = [qt6.qtbase qt6.qtdeclarative qt6.qtmultimedia libqalculate fftw pipewire aubio libcava];
 
     dontWrapQtApps = true;
     cmakeFlags =
